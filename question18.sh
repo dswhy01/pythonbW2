@@ -1,7 +1,12 @@
 #!/bin/bash
 
-git clone https://github.com/ian-knight-uofa/git-practice-01
+git clone --mirror https://github.com/ian-knight-uofa/git-practice-04
 
-cd git-practice-01
+git fetch --all
+cd git-practice-04
+
+git branch
+
 git checkout main
-git merge origin/branch1
+git merge $(git branch --list 'ready*')
+
