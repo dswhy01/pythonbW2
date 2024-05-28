@@ -1,14 +1,6 @@
 #!/bin/bash
 
-git checkout -b branch2
+git clone https://github.com/ian-knight-uofa/git-practice-04
 
-touch file4
-
-echo "Initial content" > file4
-
-git add file4
-git commit -m "Add file4"
-
-echo "Modified content" >> file4
-
-git checkout main
+cd git-practice-04
+git checkout update1
