@@ -4,7 +4,7 @@ git branch branch1
 
 git checkout branch1
 
-touch file3
+echo "" > file3
 
 git add file3
 

@@ -1,14 +1,9 @@
 #!/bin/bash
 
-git checkout -b branch2
+git rm *.sh
 
-touch file4
+echo "" > file13.txt
+git add file13.txt
+git commit -m "Add file13.txt in branch1"
 
-echo "Initial content" > file4
-
-git add file4
-git commit -m "Add file4"
-
-echo "Modified content" >> file4
-
-git checkout main
+git push origin branch2
