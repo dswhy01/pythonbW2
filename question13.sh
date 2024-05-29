@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git checkout -b newbranch
+
 git rm *.sh
 
 echo "" > file13.txt
