@@ -1,9 +1,7 @@
 #!/bin/bash
 
-mk dir1
+mkdir dir1
 
-cd dir1
+echo "" > dir1/file2
 
-touch file2
-
-git add dir1
+git add dir1/

@@ -2,7 +2,7 @@
 
 git checkout -b branch2
 
-touch file4
+echo file4
 
 echo "Initial content" > file4
 
