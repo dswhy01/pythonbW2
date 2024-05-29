@@ -12,3 +12,5 @@ git commit -m "Add file4"
 echo "Modified content" >> file4
 
 git checkout main
+
+git stash
